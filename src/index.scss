@@ -1,0 +1,12 @@
+@import url('http://fonts.cdnfonts.com/css/open-sans');
+
+body{
+    margin: 0;
+    font-family: "Open Sans";
+    overflow-x: hidden;
+    background-color: #cecece;
+}
+
+.-disable-pointer-events{
+    pointer-events: none;
+}

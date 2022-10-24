@@ -1,0 +1,37 @@
+.slide-arrow {
+    position: absolute;
+    display: flex;
+    height: 4rem;
+    top: 0;
+    bottom: 45%;
+    margin: auto;
+    background-color: inherit;
+    width: 37px;
+    font-size: 3rem;
+    padding: 0;
+    border: 0px;
+    cursor: pointer;
+    background-color: #fff;
+
+    &:hover:not(:disabled){
+        background-color: #f7f5f5;
+    }
+
+    @media screen and (max-width: 992px) {
+        display: none;
+    }
+}
+
+.slide-arrow__prev{
+    left: 0;
+    padding-left: 0.25rem;
+    border-radius: 0 32px 32px 0;
+    border-right: 1px solid #dfdfdf6b !important;
+}
+
+.slide-arrow__next{
+    border-left: 1px solid #dfdfdf6b !important;
+    right: 0;
+    padding-left: 0.75rem;
+    border-radius: 32px 0 0 32px;
+}

@@ -1,0 +1,17 @@
+.recommended-products {
+    border: 2px solid lightgrey;
+    border-radius: 12px;
+    margin: 12px 24px;
+    background-color: #fff;
+
+    &__title {
+        padding: 16px 32px;
+        font-size: 28px;
+        font-weight: 700;
+
+        @media screen and (max-width: 992px) {
+            padding: 16px;
+            font-size: 24px;
+        }
+    }
+}
