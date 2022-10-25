@@ -8,8 +8,11 @@
         padding: 16px 32px;
         font-size: 28px;
         font-weight: 700;
+    }
 
-        @media screen and (max-width: 992px) {
+    @media screen and (max-width: 992px) {
+        margin: 12px 8px;
+        &__title{
             padding: 16px;
             font-size: 24px;
         }

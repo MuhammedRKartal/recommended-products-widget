@@ -15,7 +15,9 @@
     }
 
     &-image{
+        width: 100%;
         margin-bottom: 16px;
+        border-radius: 8px;
     }
 
     &-body{
@@ -62,10 +64,17 @@
     }
 
     @media screen and (max-width: 992px) {
-        flex: 1 0 43%;
+        flex: 1 0 39%;
         padding: 6px;
         margin: 4px;
         box-shadow: 0 0 5px 2px #dfdfdf6b;
+
+        &:first-child{
+            margin-left: 8px;
+        }
+        &:last-child{
+            margin-right: 8px;
+        }
 
         &-body{
             &__name{

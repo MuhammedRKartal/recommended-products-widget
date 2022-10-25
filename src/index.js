@@ -33,7 +33,6 @@ class HomeJS {
         this.product;
         this.setCurrentSliderVariables();
         this.createSliderButtons();    
-        
     }
 
     fillTabTitles() {
@@ -108,11 +107,9 @@ class HomeJS {
 
                 addedToBasket = document.querySelector('.js-added-to-basket-popup');
                 document.querySelector('.js-remove-added-to-basket-popup').addEventListener('click', ()=>{
-                    document.body.removeChild(addedToBasket)
+                    document.body.removeChild(addedToBasket);
                 })
-            })
-
-            
+            })   
         })
         
     }
